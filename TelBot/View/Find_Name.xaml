@@ -1,0 +1,19 @@
+﻿<Window x:Class="TelBot.View.Find_Name"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:TelBot.View"
+        mc:Ignorable="d"
+        Title="Find_Name" Height="370" Width="800">
+    <Grid Margin="5,281,-5,9">
+        <Button Content="accept" Margin="80,-12,140,-4" RenderTransformOrigin="0.5,0.5" />
+        <TextBlock Text="enter the id of the group that you wan t to collect messages" Margin="500,-171,20,171"/>
+        <TextBlock Text="enter chat you want to find" Margin="15,-176,565,176"/>
+        <TextBlock Text="enter what you need to find" Margin="0,-261,25,261" FontSize="25"/>
+        <TextBlock Margin="250,-172,345,172" Text="enter messaage that you wan t to find in the channel"/>
+        <TextBox Text =" group" Margin="485,-87,-10,87" TextChanged="TextBox_TextChanged_2"/>
+        <TextBox Text =" channel" Margin="240,-96,320,96"/>
+        <TextBox Text ="chat" Margin="-5,-97,575,97"/>
+    </Grid>
+</Window>
